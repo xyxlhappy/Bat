@@ -7,5 +7,5 @@ del 0.txt
 :loop
 if "%var:~-1%"==" " set "var=%var:~0,-1%"&goto loop
 set /a size=%var%/1024/1024
-echo ¸ÃµçÄÔ×î´óÖ§³Ö %size%G ÄÚ´æ¡£
+echo è¯¥ç”µè„‘æœ€å¤§æ”¯æŒ %size%G å†…å­˜ã€‚
 pause
